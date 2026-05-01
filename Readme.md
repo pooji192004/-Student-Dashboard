@@ -5,7 +5,7 @@ Student Dashboard is a responsive web application that displays student data, pe
 
 ---
 
-##  Features
+# Features
 -  Dashboard overview with key statistics
 -  Data visualization using charts
 -  Student data table with search functionality
@@ -32,10 +32,11 @@ Student Dashboard is a responsive web application that displays student data, pe
 
 ### Student Table
      https://github.com/pooji192004/-Student-Dashboard/blob/main/Student%20marks.png
- 
+
+
 ---
 
 ## 🔗 Live Demo
-(Add your deployed link here)
+      https://studentdashboard-3.netlify.app/
 
 ---
