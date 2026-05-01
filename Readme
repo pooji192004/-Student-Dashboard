@@ -1,0 +1,41 @@
+# 📊 Student Dashboard UI
+
+## 📌 Description
+Student Dashboard is a responsive web application that displays student data, performance statistics, and analytics in a clean and interactive interface. It helps visualize key information like total students, average scores, and subject-wise performance using charts and tables.
+
+---
+
+## 🚀 Features
+- 📊 Dashboard overview with key statistics
+- 📈 Data visualization using charts
+- 📋 Student data table with search functionality
+- 🧭 Sidebar navigation for easy access
+- 📱 Responsive design for different screen sizes
+
+---
+
+## 🛠️ Tech Stack
+- HTML  
+- CSS  
+- JavaScript  
+- Chart.js  
+
+---
+
+## 📷 Screenshots
+
+### Dashboard Overview
+     
+
+### Chart Visualization
+    
+
+### Student Table
+     
+ 
+---
+
+## 🔗 Live Demo
+(Add your deployed link here)
+
+---
