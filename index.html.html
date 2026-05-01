@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Dashboard</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background: #2c3e50;
+    height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #eee;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="sidebar"></div>
+
+    <div class="content">
+
+        <h2>Student Dashboard</h2>
+
+        <!-- CHART -->
+        <canvas id="marksChart"></canvas>
+
+        <h3>Students</h3>
+
+        <!-- SEARCH -->
+        <input type="text" id="searchInput" placeholder="Search student...">
+
+        <!-- TABLE -->
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Math</th>
+                    <th>Science</th>
+                    <th>English</th>
+                </tr>
+            </thead>
+            <tbody id="studentTable"></tbody>
+        </table>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
